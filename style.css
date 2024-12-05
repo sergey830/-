@@ -1,9 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Stem", sans-serif;
 }
-h1{
+h1 {
   font-size: 28px;
   font-weight: 700;
 }
@@ -88,42 +88,110 @@ header {
 .backgraund {
   background-image: url(assets/Desktop.png);
   background-size: cover;
-  background-attachment: fixed;
+ 
 }
 .header-right {
   display: flex;
   align-items: center;
   gap: 43.07px;
 }
-.home-information-wrapper{
+.home-information-wrapper {
   display: flex;
   padding-top: 260.77px;
   padding-bottom: 254px;
   flex-direction: column;
   align-items: center;
 }
-.slogan{
+.slogan {
   text-align: center;
-  margin-top: 120px;
 }
-.text-1{
+.text-1 {
   margin-bottom: 24px;
   font-size: 28px;
   color: rgb(33, 158, 188);
 }
-.text-2{
+
+.text-2 {
   margin-bottom: 24px;
   font-size: 64px;
   font-weight: bold;
 }
-.text-3{
+
+.text-3 {
   font-size: 24px;
 }
-.card-wrapper{
+
+.card-wrapper {
   display: flex;
   align-items: start;
   justify-content: center;
   gap: 30px;
-  
+  margin-top: 64px;
+}
+.card-icon {
+  display: inline-block;
+  padding: 16px;
+  border-radius: 40px;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  margin-bottom: 32px;
+}
+.procent-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.procent-card h4 {
+  color: rgb(2, 48, 71);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 130%;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.procent-card p {
+  color: rgba(2, 48, 71, 0.4);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.advanteges {
+  padding: 120px 0;
+}
+.center {
+  text-align: center;
+}
+.business {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: bold;
+}
+.btn {
+  margin-top: 32px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(251, 133, 0);
+  padding: 16px 32px;
+  border-radius: 6px;
+  border: none;
+}
+.company {
+  color: rgb(33, 158, 188);
+}
+.color {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+.apple {
+  padding-top: 100px;
+  padding-bottom: 116px;
+}
+.backgraund-2 {
+  background-image: url('assets/images.jpeg');
+  background-size: cover;
   
 }
